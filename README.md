@@ -1,8 +1,8 @@
-# GraphPro: 基于知识图谱的 Agent 长期记忆实践
+# CogniGraph-Agent: 基于知识图谱的 Agent 长期记忆实践
 
 > **探索 Agent 的认知连贯性：从“知识图谱”到“长期记忆”的架构尝试。**
 
-GraphPro 是一个基于图谱结构的智能学习助手实验项目。我们旨在解决 LLM Agent 在长周期任务中容易遗忘、逻辑断层的问题。本项目通过构建**知识图谱 (Knowledge Graph)**，实现了 Agent 对 **学习进度** 和 **学习内容** 的长期记忆 (Long-term Memory) 与状态管理。
+CogniGraph-Agent 是一个基于图谱结构的智能学习助手实验项目。我们旨在解决 LLM Agent 在长周期任务中容易遗忘、逻辑断层的问题。本项目通过构建**知识图谱 (Knowledge Graph)**，实现了 Agent 对 **学习进度** 和 **学习内容** 的长期记忆 (Long-term Memory) 与状态管理。
 
 项目目前提供 **LangGraph** 和手动实现的 **ReAct** 两种架构，帮助用户构建、管理个性化的学习路径，并在交互中保持上下文的连贯性。
 
