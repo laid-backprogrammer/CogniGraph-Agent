@@ -5,7 +5,8 @@
 CogniGraph-Agent 是一个基于图谱结构的智能学习助手实验项目。我们旨在解决 LLM Agent 在长周期任务中容易遗忘、逻辑断层的问题。本项目通过构建**知识图谱 (Knowledge Graph)**，实现了 Agent 对 **学习进度** 和 **学习内容** 的长期记忆 (Long-term Memory) 与状态管理。
 
 项目目前提供 **LangGraph** 和手动实现的 **ReAct** 两种架构，帮助用户构建、管理个性化的学习路径，并在交互中保持上下文的连贯性。
-
+tips：
+新增小模型slm工具微调方案，包括工具调用方法和数据生成的脚本以及3000条训练数据（LFM侧端模型）位于train_slm文件夹下。
 ---
 
 ## 💡 核心理念：为何选择知识图谱？
@@ -129,8 +130,8 @@ graph TD
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/graphPro.git
-cd graphPro
+git clone https://github.com/yourusername/CogniGraph-Agent.git
+cd CogniGraph-Agent
 
 # 创建虚拟环境
 python -m venv venv
@@ -168,7 +169,7 @@ python main.py --agent react
 ## 📁 项目结构
 
 ```
-graphPro/
+CogniGraph-Agent/
 ├── agent/            # Agent 核心逻辑 (LangGraph & ReAct)
 ├── core/             # 核心业务逻辑 (Graph Logic)
 ├── chroma_db/        # 向量数据库持久化文件
